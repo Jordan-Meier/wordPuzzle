@@ -4,8 +4,8 @@ describe('findVowel', function() {
   });
 });
 
-// describe('replaceVowel', function () {
-//   it("will replace all vowels with '-' characters", function () {
-//     expect(replaceVowel("apple")).to.equal("-ppl-")
-//   });
-// });
+describe('replaceVowel', function () {
+  it("will replace all vowels with '-' characters", function () {
+    expect(replaceVowel("apple")).to.equal("-ppl-")
+  });
+});

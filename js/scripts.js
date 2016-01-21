@@ -6,11 +6,11 @@ var findVowel = function (sentence) {
 }
 
 
-// var replaceVowel = function (sentence) {
-//   var newSentence = "";
-//   if (findVowel (sentence)) {
-//     newSentence = sentence.replace(/[aeiouAEIOU]/g, '-');
-//   }
-//
-//     return newSentence;
-// }
+var replaceVowel = function (sentence) {
+  var newSentence = "";
+  if (findVowel (sentence)) {
+    newSentence = sentence.replace(/[aeiouAEIOU]/g, '-');
+  }
+
+    return newSentence;
+}
